@@ -9,7 +9,8 @@ interface Discussion {
     createdAt: string;
     upVotes:number;
     downVotes:number;
-  }
+    opinionsCount:number;
+}
 
 function useDiscussions() {
     const { data, isError, isFetching, error } = useQuery<Discussion[]>({
