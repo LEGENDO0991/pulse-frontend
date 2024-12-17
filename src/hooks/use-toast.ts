@@ -1,6 +1,5 @@
 "use client"
-
-// Inspired by react-hot-toast library
+// eslint no-unused-vars: 0
 import * as React from "react"
 
 import type {
